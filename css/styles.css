@@ -126,10 +126,10 @@ hr {
   font-weight: bold;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .skill-row {
     width: 100%;
-    margin: 5% auto 5% auto;
+    margin: 5% 5% 5% 5%;
     text-align: left;
     line-height: 2;
   }
