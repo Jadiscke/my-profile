@@ -2,6 +2,8 @@
 
 a {
   color:inherit;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -164,14 +166,17 @@ hr {
   margin: auto 3% 10px 3%;
   color: #74b38c;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .copyright {
   margin: 2% auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.credits a {
+.credits {
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .btn {
@@ -186,7 +191,7 @@ hr {
   -moz-border-radius: 20px;
   border-radius: 20px;
   color: #FFFFFF;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: 100;
   padding: 40px;
@@ -214,5 +219,4 @@ hr {
 
 .mini {
   padding: 10px;
-  font-size: 1.5vw;
 }
