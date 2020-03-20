@@ -55,6 +55,14 @@ hr {
 
 
 /*****************CLASS SELECTORS*************************/
+@media only screen and (max-width: 900px) {
+  .skill-row {
+    width: 100%;
+    margin: 5% 5% 5% 5%;
+    text-align: left;
+    line-height: 2;
+  }
+}
 
 .top-container {
   padding-top: 10%;
@@ -126,24 +134,14 @@ hr {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 768px) {
-  .skill-row {
-    width: 100%;
-    margin: 5% 5% 5% 5%;
-    text-align: left;
-    line-height: 2;
-  }
+.skill-row {
+  width: 50%;
+  margin: 5% auto 5% auto;
+  text-align: left;
+  line-height: 2;
 }
 
-@media (min-width: 600px) {
-  .skill-row {
-    width: 50%;
-    margin: 5% auto 5% auto;
-    text-align: left;
-    line-height: 2;
-  }
 
-}
 
 
 .computer {
