@@ -126,7 +126,7 @@ hr {
   font-weight: bold;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .skill-row {
     width: 100%;
     margin: 5% auto 5% auto;
@@ -135,7 +135,7 @@ hr {
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .skill-row {
     width: 50%;
     margin: 5% auto 5% auto;
