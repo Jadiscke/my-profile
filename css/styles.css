@@ -7,10 +7,11 @@ a {
 }
 
 body {
+  width: 100%;
   margin: 0;
   text-align: center;
   color: #655c56;
-  font-size: 1vw;
+  padding: 0;
 }
 
 div {
@@ -20,9 +21,10 @@ div {
 
 h1 {
   margin:auto;
-  margin-bottom: 0;
-  font-family: 'Parisienne', cursive;
-  font-size: 5.625em;
+  line-height: 2;
+  font-family: 'Arvo', serif;
+  font-size: 3.5rem;
+  font-weight: 400;
 }
 
 p {
@@ -35,7 +37,7 @@ p {
 h2 {
 
   font-family: 'Arvo', serif;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   font-weight: normal;
 }
 
