@@ -27,8 +27,9 @@ h1 {
 
 p {
   margin: auto;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: 'Open Sans', sans-serif;
+  color:#a59c96;
 
 }
 h2 {
@@ -40,7 +41,7 @@ h2 {
 
 h3 {
   font-family: 'Arvo', serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 hr {
@@ -57,14 +58,7 @@ hr {
 
 
 /*****************CLASS SELECTORS*************************/
-@media only screen and (max-width: 900px) {
-  .skill-row {
-    width: 100%;
-    margin: 5% 5% 5% 5%;
-    text-align: left;
-    line-height: 2;
-  }
-}
+
 
 .top-container {
   padding-top: 10%;
@@ -75,20 +69,15 @@ hr {
 
 .middle-container {
   background-color: #effcef;
+  padding: 0;
+  padding-bottom: 3%;
 
 }
 
 .bottom-container {
   background-color: #ccedd2;
   color: #655c56;
-}
-
-.middle-container,
-.bottom-container {
-  padding-bottom: 20px;
-  padding-top: 20px;
-
-  width: 100%;
+  padding-top: 3%;
 }
 
 .rocket_2 {
@@ -112,9 +101,14 @@ hr {
   width: 70%;
   transform: translate(0  ,10%);
 }
-
+.profile {
+  background-color: white;
+  margin: 0;
+  padding-bottom: 10%;
+}
 .profile img {
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   width: 25%;
 }
 
@@ -136,11 +130,8 @@ hr {
   font-weight: bold;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 5% auto 5% auto;
-  text-align: left;
-  line-height: 2;
+.skills {
+  padding: 5% 10%;
 }
 
 
@@ -148,16 +139,16 @@ hr {
 
 .computer {
   float: left;
-  width: 20%;
-  margin-right: 5%;
+  width: 30%;
+  margin-right: 10%;
   margin-top: 0;
 
 }
 
 .coffee {
   float: right;
-  width: 20%;
-  margin-left: 5;
+  width: 30%;
+  margin-left: 10%;
   margin-top: 0;
 
 }
@@ -179,44 +170,16 @@ hr {
   font-family: 'Open Sans', sans-serif;
 }
 
-.btn {
-  margin-top: 2%;
-  background: #352C36;
-  background-image: -webkit-linear-gradient(top, #352C36, #655C56);
-  background-image: -moz-linear-gradient(top, #352C36, #655C56);
-  background-image: -ms-linear-gradient(top, #352C36, #655C56);
-  background-image: -o-linear-gradient(top, #352C36, #655C56);
-  background-image: linear-gradient(to bottom, #352C36, #655C56);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-  font-weight: 100;
-  padding: 40px;
-  border: solid #000000 1px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-
+.credits:hover {
+  color: black;
 }
 
-.btn:hover {
-  border: solid #352C36 1px;
-  background: #655C56;
-  background-image: -webkit-linear-gradient(top, #655C56, #352C36);
-  background-image: -moz-linear-gradient(top, #655C56, #352C36);
-  background-image: -ms-linear-gradient(top, #655C56, #352C36);
-  background-image: -o-linear-gradient(top, #655C56, #352C36);
-  background-image: linear-gradient(to bottom, #655C56, #352C36);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
+.button {
+  background-color: #a59c96;
+  border-color: #655c56;
 }
 
-.mini {
-  padding: 10px;
+.button:hover {
+  background-color: #655c56;
+  border-color: #a59c96;
 }

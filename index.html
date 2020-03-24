@@ -3,56 +3,64 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vinicius</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- My CSS -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon_n.ico">
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Arvo|Open+Sans|Parisienne&display=swap" rel="stylesheet">
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
-  <div class="top-container">
-    <h1>I'm Vinicius.</h1>
-    <h2>a <span class="pro">pro</span>grammer.</h2>
-    <div class="around_world">
+  <div class="top-container container-fluid">
+    <h1 class="col-12">I'm Vinicius.</h1>
+    <h2 class="col-12">a <span class="pro">pro</span>grammer.</h2>
+    <div class="around_world col-12">
       <img class="world" src="images/world.png" alt="rocket-img">
       <img class="rocket_1" src="images/rocket.png" alt="rocket-img">
       <img class="rocket_2" src="images/rocket.png" alt="rocket-img">
     </div>
 
   </div>
-  <div class="middle-container">
+  <div class="middle-container container-fluid">
     <div class="profile">
       <img src="images/me.png" alt="profile-img">
       <h2>Hello.</h2>
-      <p>I am Vinicius, a Production Engineer Student at Universidade de Brasília and Programmer.</p>
+      <p class="mx-5">I am Vinicius, a Production Engineer Student at Universidade de Brasília and Programmer.</p>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
+    <div class="skills row">
+      <h2 class="col-12 my-5">My Skills.</h2>
+      <div class="col-lg-6 text-left my-5">
         <img class="computer" src="images/computador.png" alt="">
-        <h3>Programming</h3>
-        <p>I have some skills with python but right now i am focused in developing my javascript, html and css skills</p>
+        <h3 class="mx-2">Programming</h3>
+        <p class="m-2">I have some skills with python but right now i am focused in developing my javascript, html and css skills</p>
         <br>
       </div>
-      <div class="skill-row">
-        <img class="coffee" src="images/coffee.png" alt="">
-        <h3>Coffee Brewing</h3>
-        <p>Holly Coffee Beans. I love <strong>COFFEE</strong> and I love brewing it. I think it's love.</p>
+      <div class="col-lg-6 my-5 ">
+        <img class="coffee d-flex justify-content-end" src="images/coffee.png" alt="">
+        <h3 class="mx-2 pl-lg-5 text-left">Coffee Brewing</h3>
+        <p class="m-2 pl-lg-5 text-left">Holly Coffee Beans. I love <strong>COFFEE</strong> and I love brewing it. I think it's love.</p>
       </div>
     </div>
-    <br>
-    <hr>
+
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <h3>Send me an e-mail!</h3>
       <p>Click the link below so we can talk!</p>
-      <a class="btn mini" href="mailto:vjtasso@gmail.com">CONTACT ME</a>
+      <a class="btn btn-dark btn-lg mt-5 button" href="mailto:vjtasso@gmail.com">CONTACT ME</a>
     </div>
   </div>
-  <div class="bottom-container">
+  <div class="bottom-container container-fluid">
     <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/">Twitter</a>
     <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
