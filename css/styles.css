@@ -22,7 +22,7 @@ h1 {
   margin:auto;
   margin-bottom: 0;
   font-family: 'Parisienne', cursive;
-  font-size: 5.625rem;
+  font-size: 5.625em;
 }
 
 p {
@@ -35,25 +35,13 @@ p {
 h2 {
 
   font-family: 'Arvo', serif;
-  font-size: 2.5rem;
+  font-size: 2.5em;
   font-weight: normal;
 }
 
 h3 {
   font-family: 'Arvo', serif;
   font-size: 2rem;
-}
-
-hr {
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-style: dotted;
-  border-top: 10px;
-  border-width: 15px;
-  width: 50px;
-
-  color: #a59c96;
 }
 
 
@@ -63,8 +51,7 @@ hr {
 .top-container {
   padding-top: 10%;
   background-color: #ccedd2;
-  position: relative;
-  padding-bottom: 46.25%;
+  padding-bottom: 10%;
 }
 
 .middle-container {
@@ -119,12 +106,8 @@ hr {
 
 
 .around_world {
+  width:75%;
 
-  position: absolute;
-  width:50%;
-  height: 0;
-  padding-bottom: 50%;
-  left: 25%;
 }
 .pro {
   font-weight: bold;
